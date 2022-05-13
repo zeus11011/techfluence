@@ -23,12 +23,13 @@
 
 .logos{
   top: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
   height: 90px;
   justify-content: space-between;
   position: absolute;
   padding: 10px;
+  padding-right: 0;
 }
 
 .title{
@@ -95,13 +96,14 @@
 
 .div{
   height: 50%;
-  padding: 27px;
+  padding: 14px;
+  padding-right: 0px;
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
-  column-gap: 5px;
+  column-gap: 1px;
   h3{
-    margin-left: 27px;
+    // margin: 12px;
     color: #060C2E7D;;
     font-size: 16px;
   }
