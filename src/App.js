@@ -2,21 +2,19 @@ import './App.scss';
 import {FiTwitter, FiFacebook , FiInstagram} from "react-icons/fi"
 import Box from './Components/Box';
 
-import GEC_LOGO from "./Pics/gec_logo.png";
-import INT_LOGO from "./Pics/intensa.png";
-
-import CODE_GL from "./Pics/events/CODE_GROUND.PNG";
-import DEBATE_L from "./Pics/events/debate.PNG";
-import ESPORTS from "./Pics/events/ESPORTSPNG.PNG";
-import POSTMAKING from "./Pics/events/POSTERMAKING.PNG"; 
-import ServiceBox from './Components/ServiceBox';
 
 function App() {
   return (
     <div className="App">
       <div className="logos">
-        <img src={GEC_LOGO} height="100%" />
-        <img src={INT_LOGO} height="100%" />
+        <img
+          src="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548431/techfluence/gec_logo_iffsmd.png"
+          height="100%"
+        />
+        <img
+          src="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548429/techfluence/intensa_yuiuga.png"
+          height="100%"
+        />
       </div>
       <div className="bg_img">
         <div className="home">
@@ -40,10 +38,22 @@ function App() {
         <div className="event_cont">
           <div className="events">
             <h1>Events</h1>
-            <Box img={CODE_GL} text="CODE GROUND" />
-            <Box img={ESPORTS} text="ESPORTS" />
-            <Box img={DEBATE_L} text="DEBATE" />
-            <Box img={POSTMAKING} text="DIGITAL POSTER MAKING" />
+            <Box
+              img="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548495/techfluence/events/CODE_GROUND_bk4w6h.png"
+              text="CODE GROUND"
+            />
+            <Box
+              img="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548495/techfluence/events/ESPORTSPNG_xgdwef.png"
+              text="ESPORTS"
+            />
+            <Box
+              img="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548495/techfluence/events/ESPORTSPNG_xgdwef.png"
+              text="DEBATE"
+            />
+            <Box
+              img="https://res.cloudinary.com/dtwnn46uj/image/upload/v1652548495/techfluence/events/POSTERMAKING_fo14gp.png"
+              text="DIGITAL POSTER MAKING"
+            />
           </div>
         </div>
         <div className="services">
@@ -56,7 +66,7 @@ function App() {
                 page.
               </p>
               <div>
-                <p>2000</p>
+                <p>Rs. 2000/-</p>
                 <button>See Details</button>
               </div>
             </div>
@@ -67,7 +77,7 @@ function App() {
                 page.
               </p>
               <div>
-                <p>5000</p>
+                <p>Rs. 5000/-</p>
                 <button>See Details</button>
               </div>
             </div>
@@ -78,7 +88,7 @@ function App() {
                 page.
               </p>
               <div>
-                <p>10000</p>
+                <p>Rs. 10000/-</p>
                 <button>See Details</button>
               </div>
             </div>
